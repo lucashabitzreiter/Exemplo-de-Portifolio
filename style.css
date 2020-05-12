@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
+#menu {
+    height: 60px;
+    width: calc(100% - 82px);
+    background-color: #eee;
+    line-height: 60px;
+    padding: 0 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 9;
+    top: 0px;
+}
+#menu h1 {
+    font-size: 18px;
+    float: left;
+}
+#menu ul {
+    float: right;
+    list-style: none;
+}
+#menu ul li {
+    float: left;
+    padding: 0 5px;
+    margin-left: 10px;
+}
+#menu ul li a:hover {
+    color: #00009b;
+    font-weight: 500;
+}
+#menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+section {
+    position: relative;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 60px);
+    /* padding-top: 60px; */
+}
+#home {
+    margin-top: 60px;
+    background: linear-gradient(rgba(13,16,22,0.95)100%, rgba(13,16,22,0.95)100%),url("bg.jpg");
+}
+#home div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+}
+#home h1 {
+    display: block;
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+#home p {
+    color: #fff;
+    font-size: 18px;
+}
+#home button {
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 100px;
+    bottom: 0px ;
+    border-radius: 100000px;
+    position: relative;
+    border: 1px solid #fff;
+}
+#home button a {
+    text-decoration: none;
+    color: #333;
+}
+#home button:hover > a {
+    color: #fff;
+}
+#curso, #areas, #mercado {
+    background-color: #ddd;
+}
+#carreira, #salario {
+    background-color: rgb(13, 16, 22);
+}
+
+.titulo {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    display: block;
+    color: black;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.sobre {
+    position: absolute;
+    width: 80%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    display: block;
+    color: black;
+    font-size: 25px;
+}
+
+.titulo1 {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    display: block;
+    color: white;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.carreira1 {
+    position: absolute;
+    width: 80%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    display: block;
+    color: white;
+    font-size: 25px;
+}
